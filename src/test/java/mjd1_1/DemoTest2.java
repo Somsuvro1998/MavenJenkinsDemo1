@@ -11,7 +11,7 @@ public class DemoTest2 {
 	public void demoTest2()
 	{
 		WebDriverManager.chromedriver().setup();
-		WebDriverr driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demoapp.skillrary.com/product.php?product=java");
 		driver.close();
