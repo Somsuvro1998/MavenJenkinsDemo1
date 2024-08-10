@@ -21,7 +21,7 @@ pipeline {
     }
     post{
         always{
-            emailext body: 'please find the pipeline at ${YOUR_JENKINS_URL}/pipeline-syntax', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
+            emailext body: 'please find the pipeline at http://localhost:8080/job/Pipeline2/', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
         }
     }
 }
